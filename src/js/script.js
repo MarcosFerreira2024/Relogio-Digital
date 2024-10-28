@@ -7,7 +7,7 @@ setInterval(() => {
     minutes.innerHTML=new Date().toString().slice(19,21)
     seconds.innerHTML=new Date().toString().slice(22,24)
     
-}, 1000);
+}, 500);
 
 
 
