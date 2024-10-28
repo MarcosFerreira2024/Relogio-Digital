@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>Relogio Digital</title>
+   
+  </head>
+
+  
+  <body class="bg-violet-700">
+    <div class="w-[100vw] h-[100vh] flex justify-center items-center">
+      <div class="bg-violet-800 w-[100%]  flex justify-center items-center gap-5 relogio-shadow ">
+        <div class=" bg-violet-900 rounded-lg m-5 timer-relogio-shadow ">
+          <div class="flex items-center gap-5 p-5  text-white relative">
+            <div class="flex flex-col gap-1">
+              <h1 class="hours text-center  text-5xl sm:text-7xl">00</h1>
+              <p class="text-center text-base sm:text-xl">Hours</p>
+            </div>
+            <div>
+              <span class=" text-5xl sm:text-4xl">:</span>
+            </div>
+            <div class="flex flex-col gap-1">
+              <h1 class="minutes text-center  text-5xl sm:text-7xl">00</h1>
+              <p class="text-center text-base sm:text-xl">Minutes</p>
+            </div>
+            <div>
+              <span class=" text-5xl sm:text-4xl">:</span>
+            </div>
+            <div class="flex flex-col gap-1">
+              <h1 class="seconds text-center  text-5xl sm:text-7xl">00</h1>
+              <p class="text-center text-base sm:text-xl">Seconds</p>
+            </div>
+            <div class="flex absolute left-[-720px] gap-10">
+              <div class="bg-violet-900 rounded-lg  timer-relogio-shadow w-[80px] h-[20px]"></div>
+              <div class="bg-violet-900 rounded-lg  timer-relogio-shadow w-[80px] h-[20px]"></div>
+              <div class="bg-violet-900 rounded-lg  timer-relogio-shadow w-[80px] h-[20px]"></div>
+              <div class="bg-violet-900 rounded-lg  timer-relogio-shadow w-[80px] h-[20px]"></div>
+              <div class="bg-violet-900 rounded-lg  timer-relogio-shadow w-[80px] h-[20px]"></div>
+              <div class="bg-violet-900 rounded-lg  timer-relogio-shadow w-[80px] h-[20px]"></div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <script src="js/script.js"></script>
+    
+    
+  </body>
+
+</html>
